@@ -5,11 +5,6 @@
 using namespace std;
 
 // Class for representing a student
-class Student {
-private:
-    string name;
-    int rollNumber;
-    float marks;
 
 public:
     // Constructor
