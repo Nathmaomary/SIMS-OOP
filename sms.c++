@@ -42,8 +42,11 @@ public:
         marks = m;
     }
 
-    
-    
+    // Display student details
+    void displayStudent() const {
+        cout << "Name: " << name << ", Roll No: " << rollNumber << ", Marks: " << marks << endl;
+    }
+
 };
 
 // Class for managing student operations (CRUD)
